@@ -56,8 +56,11 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
         className={`${playfair.variable} ${openSans.variable} antialiased font-body bg-background text-text flex flex-col min-h-screen overflow-x-hidden`}
       >
+        <a href="#main-content" className="skip-link">
+          Skip to main content
+        </a>
         <Header />
-        <main className="flex-grow">
+        <main id="main-content" className="flex-grow">
           {children}
         </main>
         <Footer />

@@ -6,7 +6,7 @@ export default function About() {
     return (
         <section id="about" className="py-20 bg-white">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col md:flex-row items-center gap-12">
+                <div className="flex flex-col md:flex-row items-center gap-12 animate-fade-up">
                     {/* Image Column */}
                     <div className="w-full md:w-1/2 relative flex justify-center mb-12 md:mb-0">
                         <div className="absolute inset-0 bg-secondary rounded-2xl transform translate-x-4 translate-y-4 -z-10 w-4/5 md:w-3/4 mx-auto"></div>

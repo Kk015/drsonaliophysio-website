@@ -1,4 +1,4 @@
-import { Activity, UserCheck, Heart, Zap, Layers, ShieldCheck } from 'lucide-react';
+import { Activity, UserCheck, Heart, Zap, Layers, ShieldCheck, Brain, Baby } from 'lucide-react';
 
 export default function Services() {
     const services = [
@@ -18,9 +18,19 @@ export default function Services() {
             description: "Getting athletes back in the game with targeted strengthening and recovery."
         },
         {
+            icon: <Brain size={40} className="text-secondary" />,
+            title: "Neuro Physiotherapy",
+            description: "Rehabilitation for neurological conditions to improve movement and function."
+        },
+        {
             icon: <Heart size={40} className="text-secondary" />,
             title: "Post-Surgical Rehab",
             description: "Comprehensive care to regain strength and mobility after surgery."
+        },
+        {
+            icon: <Baby size={40} className="text-secondary" />,
+            title: "Antenatal & Postnatal Care",
+            description: "CAPPA-certified exercise and rehabilitation for expectant and new mothers."
         },
         {
             icon: <Layers size={40} className="text-secondary" />,
@@ -45,9 +55,9 @@ export default function Services() {
                     </p>
                 </div>
 
-                <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 pb-8 -mx-4 px-4 md:mx-0 md:px-0 scrollbar-hide">
+                <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 pb-8 -mx-4 px-4 md:mx-0 md:px-0 scrollbar-hide">
                     {services.map((service, index) => (
-                        <div key={index} className="w-[85vw] md:w-auto snap-center bg-white p-6 md:p-8 rounded-xl shadow-md border-t-4 border-secondary group flex-shrink-0">
+                        <div key={index} className="w-[85vw] md:w-auto snap-center bg-white p-6 md:p-8 rounded-xl shadow-md border-t-4 border-secondary group flex-shrink-0 hover:shadow-lg hover:border-primary/80 transition-all duration-300">
                             <div className="mb-6 bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
                                 {service.icon}
                             </div>

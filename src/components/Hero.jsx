@@ -23,6 +23,7 @@ Reason: `;
                     className="object-cover object-center"
                     placeholder="blur"
                     sizes="100vw"
+                    priority
                 />
             </div>
 

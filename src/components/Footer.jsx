@@ -26,7 +26,9 @@ export default function Footer() {
                             <li><Link href="/" className="text-blue-100 hover:text-white transition-colors">Home</Link></li>
                             <li><Link href="#about" className="text-blue-100 hover:text-white transition-colors">About Me</Link></li>
                             <li><Link href="#services" className="text-blue-100 hover:text-white transition-colors">Services</Link></li>
+                            <li><Link href="#testimonials" className="text-blue-100 hover:text-white transition-colors">Testimonials</Link></li>
                             <li><Link href="#health-tips" className="text-blue-100 hover:text-white transition-colors">Health Tips</Link></li>
+                            <li><Link href="#booking" className="text-blue-100 hover:text-white transition-colors">Book Appointment</Link></li>
                         </ul>
                     </div>
 
@@ -35,12 +37,12 @@ export default function Footer() {
                         <h4 className="text-lg font-bold mb-4">Contact Us</h4>
                         <ul className="space-y-3">
                             <li className="flex items-start">
-                                <MapPin className="mr-3 flex-shrink-0" size={20} />
-                                <span className="text-blue-100">Shop No. 1-2, Near Hotel Q, Pula Bhuwana Road, New Flora Complex.</span>
+                                <MapPin className="mr-3 flex-shrink-0 mt-0.5" size={20} />
+                                <a href="https://www.google.com/maps/search/?api=1&query=Advance+Neuro+and+Physio+Clinic+Pula+Bhuwana+Road+Udaipur" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-white transition-colors underline underline-offset-2">Shop No. 1-2, Near Hotel Q, Pula Bhuwana Road, New Flora Complex.</a>
                             </li>
                             <li className="flex items-center">
                                 <Phone className="mr-3 flex-shrink-0" size={20} />
-                                <a href="tel:+918850359887" className="text-blue-100 hover:text-white">+91 88503 59887</a>
+                                <a href="tel:+918850359887" className="text-blue-100 hover:text-white transition-colors">+91 88503 59887</a>
                             </li>
 
                         </ul>

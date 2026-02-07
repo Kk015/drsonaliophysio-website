@@ -11,11 +11,12 @@ export default function Header() {
         { name: 'Home', href: '/' },
         { name: 'About', href: '#about' },
         { name: 'Services', href: '#services' },
+        { name: 'Testimonials', href: '#testimonials' },
         { name: 'Health Tips', href: '#health-tips' },
     ];
 
     return (
-        <header className="bg-white shadow-sm sticky top-0 z-50">
+        <header className="bg-white/95 backdrop-blur-sm shadow-sm sticky top-0 z-50 border-b border-gray-100">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}

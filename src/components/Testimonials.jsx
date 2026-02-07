@@ -34,7 +34,7 @@ export default function Testimonials() {
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {testimonials.map((testimonial, index) => (
-                        <div key={index} className="bg-gray-50 p-8 rounded-2xl relative">
+                        <div key={index} className="bg-gray-50 p-8 rounded-2xl relative hover:shadow-md hover:bg-white transition-all duration-300">
                             {/* Quote Icon */}
                             <div className="absolute top-6 right-8 text-teal-200 text-6xl font-serif opacity-50">"</div>
 

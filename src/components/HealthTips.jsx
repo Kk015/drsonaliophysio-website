@@ -31,7 +31,7 @@ export default function HealthTips() {
 
                 <div className="flex flex-nowrap overflow-x-auto snap-x snap-mandatory md:grid md:grid-cols-2 lg:grid-cols-4 gap-4 pb-6 -mx-4 px-4 md:mx-0 md:px-0 scrollbar-hide">
                     {tips.map((tip, index) => (
-                        <div key={index} className="w-[75vw] md:w-auto snap-center bg-white p-6 rounded-lg shadow-sm border-l-4 border-secondary flex-shrink-0">
+                        <div key={index} className="w-[75vw] md:w-auto snap-center bg-white p-6 rounded-lg shadow-sm border-l-4 border-secondary flex-shrink-0 hover:shadow-md hover:border-primary/80 transition-all duration-300">
                             <h3 className="text-xl font-bold font-heading mb-3 text-text whitespace-normal">{tip.title}</h3>
                             <p className="text-gray-600 text-sm leading-relaxed whitespace-normal">
                                 {tip.content}

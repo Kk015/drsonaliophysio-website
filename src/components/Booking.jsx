@@ -65,12 +65,12 @@ Reason: ${formData.issue}`;
                             <div className="space-y-4">
                                 <div className="flex items-start">
                                     <div className="font-bold w-20 flex-shrink-0">Call Us:</div>
-                                    <div>+91 88503 59887</div>
+                                    <a href="tel:+918850359887" className="text-blue-100 hover:text-white transition-colors">+91 88503 59887</a>
                                 </div>
 
                                 <div className="flex items-start">
                                     <div className="font-bold w-20 flex-shrink-0">Visit:</div>
-                                    <div>Shop No. 1-2, Near Hotel Q, Pula Bhuwana Road, New Flora Complex.</div>
+                                    <a href="https://www.google.com/maps/search/?api=1&query=Advance+Neuro+and+Physio+Clinic+Pula+Bhuwana+Road+Udaipur" target="_blank" rel="noopener noreferrer" className="text-blue-100 hover:text-white underline underline-offset-2 transition-colors">Shop No. 1-2, Near Hotel Q, Pula Bhuwana Road, New Flora Complex.</a>
                                 </div>
                             </div>
                         </div>
